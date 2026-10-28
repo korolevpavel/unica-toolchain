@@ -82,9 +82,9 @@ class RepositoryContractTests(unittest.TestCase):
             ),
             "bsl-analyzer": (
                 "nightly",
-                "71b0bf48ea339e4e42894599168b0aaab75a54bf",
-                "71b0bf48ea339e4e42894599168b0aaab75a54bf",
-                "bsl-analyzer-nightly-71b0bf48ea33-build.1",
+                "2422fd0acedb44cb7ff0d3fd123c4b23d87c2755",
+                "2422fd0acedb44cb7ff0d3fd123c4b23d87c2755",
+                "bsl-analyzer-nightly-2422fd0acedb-build.1",
             ),
         }
         for name, (kind, ref, commit, release) in expected.items():
