@@ -81,10 +81,10 @@ class RepositoryContractTests(unittest.TestCase):
                 "rlm-tools-bsl-v1.42.0-build.1",
             ),
             "bsl-analyzer": (
-                "release",
-                "v0.2.86",
-                "53d8765288adf3b9277b7a4112dba167e51690b7",
-                "bsl-analyzer-v0.2.86-build.1",
+                "nightly",
+                "71b0bf48ea339e4e42894599168b0aaab75a54bf",
+                "71b0bf48ea339e4e42894599168b0aaab75a54bf",
+                "bsl-analyzer-nightly-71b0bf48ea33-build.1",
             ),
         }
         for name, (kind, ref, commit, release) in expected.items():
